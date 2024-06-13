@@ -36,13 +36,3 @@ let ans = await inquirer.prompt([{
 
 
 console.log(chalk.bgGray.bold(C_value[ans.to] / C_value[ans.from] * ans.amount));
-
-
-
-
-
-
-
-
-
-
